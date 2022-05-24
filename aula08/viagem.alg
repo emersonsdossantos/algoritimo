@@ -8,13 +8,13 @@ var
 inicio
       Escreva("Quanto dinheiro voce tem R$ ")
       Leia(dinheiro)
-      Se (dinheiro > 1000) entao
+      Se (dinheiro => 1000) entao
          Escreva("Partiu Disney")
       Senao
-           Se(dinheiro >= 500) e (dinheiro <= 1000) entao
+           Se(dinheiro >= 500) e (dinheiro < 1000) entao
               Escreva("Partiu casa da familia")
            Senao
-              Escreva("Ficarei em casa")
+              Escreva("Moio vai ter que ficar em casa")
            Fimse
-       Fimse
+      Fimse
 fimalgoritmo
